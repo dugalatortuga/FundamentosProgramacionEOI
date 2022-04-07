@@ -325,4 +325,7 @@ Vuelta
 
 ![Imagen03](img\03.png)
 
+confirmamos los cambios
+git commit -n "<confirmamos la subida de imagenes>"
+
 
