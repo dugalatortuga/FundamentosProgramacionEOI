@@ -2,9 +2,9 @@
 
 1 - INSTALACIÓN DEL EDITOR MARKDOWN
 
-[GUIA BREVE MARKDOWN ](http://fobos.inf.um.es/R/taller5j/30-markdown/guiabreve.pdf)
+[GUIA BREVE MARKDOWN](http://fobos.inf.um.es/R/taller5j/30-markdown/guiabreve.pdf)
 
-![00](img/00.png)
+
 
 ...
 
@@ -18,9 +18,10 @@
 
 3 - EXPLORACIÓN DE GIT
 
-  Descargar Git y dejarlo en la carpeta.
+  Descargar Git y dejarlo en la carpeta (no moverlo).
 
-  Instalar Git y en el proceso de instalación dar siempre a "Siguiente".
+  Instalar Git y en el proceso de instalación dar siempre a "Siguiente" hasta que
+  quede completamente instalado.
 
 ​			  https://git-scm.com/download/win
 
@@ -54,7 +55,8 @@ c:> git init
 Initialized empty Git repository in C:/00-EOI/.git/
 ```
 
-​    2.4 Revisamos la configuración global al ordenador de GIT (La respuesta es que no tiene configuración global) NO HACER CASO AL ERROR FATAL XD
+​    2.4 Revisamos la configuración global al ordenador de GIT (La respuesta es
+que no tiene configuración global) NO HACER CASO AL ERROR FATAL XD
 
 ```
 c:>git config --global -l
@@ -64,21 +66,23 @@ fatal: unable to read config file 'C:/Users/WDAGUtilityAccount/.gitconfig': No s
 ​    2.5 Establecemos el usuario y el correo electrónico
 
 ```
-c:>git config --global user.name "BillyClassTime"
+c:>git config --global user.name "dugalatortuga"
 ```
 
 ```
-c:>git config --global user.email="billy@billyclasstime.com" 
+c:>git config --global user.email="gab2diegor@gmail.com" 
 
-(NOTA: en caso de que no nos dé alguno de los dos datos, podemos introducirlo manualmente en el archivo de texto que los contiene abriéndolo desde el bloc de notas)
+(NOTA: en caso de que no nos dé alguno de los dos datos, podemos introducirlo
+manualmente en el archivo de texto que los contiene abriéndolo desde
+el bloc de notas)
 ```
 
 2.6 Comprobamos la configuración global previamente establecida
 
 ```
 c:>git config --global -l
-user.name=BillyClassTime
-user.email=billy@billyclasstime.com
+user.name=dugalatortuga
+user.email=gab2diegor@gmail.com
 ```
 
 
@@ -152,7 +156,7 @@ IR AL GITHUB -> COPIAR la ruta del repositorio de git
 Establecemos la conexion
 
 ```
-git remote add main https://github.com/BillyClassTime/FundamentosProgramacionEOI.git
+git remote add main https://github.com/dugalatortuga/FundamentosProgramacionEOI.git
 ```
 
 NOTA:
@@ -211,18 +215,20 @@ c:><caperta del proyecto>git status
 
 
 
-Vuelta al No. 1
+Vuelta al No. 1. Repetiremos estos pasos cada vez que queramos actualizar nuestro repositorio en la nube a partir del local.
 
 Vuelta!
 
 
 SUBIDA DE IMAGENES. Es importante empezar con exclamación, hacer referencias relativas, indicar el nombre de la imagen entre corchetes y poner la barra correcta, la del 7.
 
+
 ![Imagen01](img/01.png)
 
 ![Imagen02](img/02.png)
 
 ![Imagen03](img/03.png)
+
 
 
 confirmamos los cambios
@@ -237,20 +243,32 @@ git commit -m "<confirmamos la subida de imagenes>"
 
 ACTUAZAMOS LOS ARCHIVOS DEL REPOSITORIO
 
-git add . para incluir los cambios realizados. (con este comando se queda en el stage)
+1. Empezamos incluyendo los cambios realizados (con este comando los cambios se quedan estancados en stage)
 
-git status para verificar los cambios
+git add .
 
-git commit -m "..." entre comillas el nombre de la actualizacion realizada para tenerla identificada
+2. Verificamos que los cambios estánn OK
 
-git push main para pasar del stage a la nube
+git status
+
+3. Damos nombre a la actualización realizada poniéndole un nombre entre las comilllas
+
+git commit -m "..."
+
+4. Pasamos los cambios del stage a la nube
+
+git push main
+
+5. Comprobamos de nuevo que los cambios se han aplicado correctamente
 
 git status de nuevo para comprobar que se ha actualizado correctamente
 
 
+VOLVEMOS A INICIAR LOS 5 PUNTOS TANTAS VECES COMO LO NECESITEMOS.
 
 
-### PARA CONECTAR EL REPOSITORIO FÍSICO CON LA NUBE
+
+### PARA CONECTAR EL REPOSITORIO LOCAL CON LA NUBE
 
 git remote add main (y el link del repositorio)
 
@@ -260,5 +278,6 @@ git push main para conectar
 
 
 
-## FIN
+           ## FIN
 (comprobación de actualización)
+
