@@ -9,122 +9,8 @@
 2 - Explorar GitHub (CONSEGUIDO)
 
 ```
-Billy
-10:08 AM
 
-github.com/BillyClassTime/FundamentosProgramacionEOI
 
-Lina María Vásquez Salazar
-10:08 AM
-
-github.com/Linamarv7/FundamentosProgramacionEOI
-
-David Rey de Viñas Velázquez
-10:08 AM
-
-github.com/redevv/FundamentosProgramacionEOI
-
-Iván Álamo Exposito
-10:08 AM
-
-github.com/Ivanfinal/FundamentosProgramacionEOI
-
-Francisco Vida Vílchez
-10:08 AM
-
-github.com/FranciscoVida/FundamentosProgramacionEOI
-
-Mario Álvarez Gómez
-10:08 AM
-
-github.com/Marioalvgmz/FundamentosProgramacionEOI
-
-Rafael Alejandro Ojeda Nicieza
-10:08 AM
-
-github.com/rojeda16/fundamentosprogramacionEOI
-
-Cristina Silván Sadoc
-10:08 AM
-
-github.com/CristinaSilvan/FundamentosProgramacionEOI
-
-Julia Pérez Mora
-10:08 AM
-
-github.com/Juliafperez/FundamentosProgramacionEOI 
-
-David González López
-10:09 AM
-
-github.com/davidgonzalezlopez96/fundamentos-EOI
-
-Álvaro Morales Marquez
-10:09 AM
-
-github.com/alvaromrls/FundamentosProgramacionEOI
-
-Samuel Tirao Martos
-10:09 AM
-
-github.com/TMSamuel/FundamentosProgramacionEOI
-
-Vanessa Machordom Torres
-10:09 AM
-
-github.com/vmachord/FundamentosProgramacionEOI
-
-Miguel Villar Zamora
-10:09 AM
-
-https://github.com/MiguelVillarZamora/FundamentosProgramacionEOI
-
-AMAIA SANCHIS BALLESTER
-10:09 AM
-
-github.com/amaiasanchis/FundamentosProgramacionEOI
-
-Juan Antonio Cejudo Algar
-10:09 AM
-
-github.com/jacs2501/Curso_cloud_computing
-
-Cynthia Martín Martínez
-10:09 AM
-
-github.com/Cynthiamm13/fundamentos/tree/main
-
-Diego Rodriguez Sanchez
-10:09 AM
-
-github.com/dugalatortuga/FundamentosProgramacionEOI
-
-PAULA CARRASCAL MARTINEZ
-10:09 AM
-
-github.com/pcarrascal/FundamentosProgramacionEOI
-
-Antonio Daza Dueñas
-10:09 AM
-
-github.com/DdDaza22/FundamentosProgramacionEOI
-
-Daniel López Doncel-Moriano
-10:09 AM
-
-github.com/DlopezDoncelMoriano/Fundamentos-programaci-n-EOI
-
-Iván Salas Carrascal
-10:09 AM
-github.com/salcarivan/salcarivan/new/main
-
-Emiliano Julian Salvachua
-10:10 AM
-https://github.com/emiarg10/FundamentosProgramacionEOI
-
-Bautista Gabriel Day García
-10:10 AM
-github.com/bautiday/FundamentosProgramacionEOI
 ```
 
 
@@ -319,11 +205,12 @@ c:><caperta del proyecto>git status
 Vuelta al No. 1
 
 Vuelta
-![Imagen01](img\01.png)
 
-![Imagen02](img\02.png)
+![Imagen01](img/01.png)
 
-![Imagen03](img\03.png)
+![Imagen02](img/02.png)
+
+![Imagen03](img/03.png)
 
 confirmamos los cambios
 git commit -m "<confirmamos la subida de imagenes>"
@@ -331,3 +218,26 @@ git commit -m "<confirmamos la subida de imagenes>"
 
 PRUEBA DE INSERCIÓN git add .
 
+
+ACTUAZAMOS LOS ARCHIVOS DEL REPOSITORIO
+
+git add . para incluir los cambios realizados. (con este comando se queda en el stage)
+
+git status para verificar los cambios
+
+git commit -m "..." entre comillas el nombre de la actualizacion realizada para tenerla identificada
+
+git push main para pasar del stage a la nube
+
+git status de nuevo para comprobar que se ha actualizado correctamente
+
+PARA CONECTAR EL REPOSITORIO FÍSICO CON LA NUBE
+
+git remote add main (y el link del repositorio)
+
+git remote -v para comprobar que la conexión es buena
+
+git push main para conectar
+
+FIN
+(comprobación de actualización)
