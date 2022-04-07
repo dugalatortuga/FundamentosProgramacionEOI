@@ -220,15 +220,16 @@ Vuelta al No. 1. Repetiremos estos pasos cada vez que queramos actualizar nuestr
 Vuelta!
 
 
-SUBIDA DE IMAGENES. Es importante empezar con exclamación, hacer referencias relativas, indicar el nombre de la imagen entre corchetes y poner la barra correcta, la del 7.
+SUBIDA DE IMAGENES. Es importante empezar con exclamación, hacer
+ referencias relativas, indicar el nombre de la imagen entre 
+ corchetes y poner la barra correcta, la del 7.
 
 
-![Imagen01](img/01.png)
+![Imagen01](C:\Users\diego\00-EOI\img/01.png)
 
-![Imagen02](img/02.png)
+![Imagen02]((C:\Users\diego\00-EOI\img/01.png))
 
-![Imagen03](img/03.png)
-
+![Imagen03](img\03.png)
 
 
 confirmamos los cambios
@@ -241,7 +242,7 @@ git commit -m "<confirmamos la subida de imagenes>"
 ### PRUEBA DE INSERCIÓN git add .
 
 
-ACTUAZAMOS LOS ARCHIVOS DEL REPOSITORIO
+__ACTUAZAMOS LOS ARCHIVOS DEL REPOSITORIO__
 
 1. Empezamos incluyendo los cambios realizados (con este comando los cambios se quedan estancados en stage)
 
@@ -261,7 +262,7 @@ git push main
 
 5. Comprobamos de nuevo que los cambios se han aplicado correctamente
 
-git status de nuevo para comprobar que se ha actualizado correctamente
+git status
 
 
 VOLVEMOS A INICIAR LOS 5 PUNTOS TANTAS VECES COMO LO NECESITEMOS.
