@@ -225,11 +225,11 @@ SUBIDA DE IMAGENES. Es importante empezar con exclamación, hacer
  corchetes y poner la barra correcta, la del 7.
 
 
-![Imagen01](C:\Users\diego\00-EOI\img/01.png)
+![Imagen01](img/01.png)
 
-![Imagen02]((C:\Users\diego\00-EOI\img/01.png))
+![Imagen02](img/02.png)
 
-![Imagen03](img\03.png)
+![Imagen03](img/03.png)
 
 
 confirmamos los cambios
@@ -281,4 +281,6 @@ git push main para conectar
 
            ## FIN
 (comprobación de actualización)
+
+**ERROR EN LA SUBIDA DE IMAGENES. PENDIENTE DE REVISIÓN.
 
