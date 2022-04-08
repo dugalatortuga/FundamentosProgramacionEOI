@@ -69,7 +69,7 @@ __COMANDOS PARA GIT__
 
 - Combinación de _git add. + git commit -m_
 
-        git comit -am
+        git commit -am "nombre de la actualizacion"
 
  
 
@@ -86,17 +86,27 @@ __COMANDOS PARA GIT__
 
 3. _Repositorio remoto (GitHub)._ Es la etapa final de la información. Con esto ya quedaría publicado. Podemos afianzar el cambio y ponerle nombre mediante:
 
-        git commit -m
+        git commit -m "nombre de la actualización"
+            [master 81f3abd] actualizando
+            1 file changed, 92 insertions(+), 6 deletions(-)
 
 * Podemos enviar nuestro contenido del stage al repositorio mediante:
     
         git push main
+            Enumerating objects: 5, done.
+            Counting objects: 100% (5/5), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (3/3), done.
+            Writing objects: 100% (3/3), 1.28 KiB | 437.00 KiB/s, done.
+            Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+            To https://github.com/dugalatortuga/FundamentosProgramacionEOI.git
+            42c5d6f..81f3abd  master -> master
 
 
 Por lo tanto, generaremos el __bucle__ siempre que queramos subir la información trabajada de la siguiente manera:
 
     - git add .
-    - git commit -m
+    - git commit -m "nombre de la actualización"
     (podemos sustituir los dos primeros por git commit -am)
     - git push main
 
