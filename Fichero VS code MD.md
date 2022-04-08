@@ -11,9 +11,9 @@
 
 2 - EXPLORACIÓN DE GITHUB
 
+
 ```
-
-
+```
 
 
 3 - EXPLORACIÓN DE GIT
@@ -27,11 +27,11 @@
 
 
 
-2. **(SOLO LA PRIMERA VEZ)** CREAR REPOSITORIO LOCAL CON GIT por primera vez 
+4. **CREAR REPOSITORIO LOCAL CON GIT** por primera vez **(SOLO LA PRIMERA VEZ)**
 
-   CONFIGURACION INICIAL 
+  CONFIGURACION INICIAL 
 
-   2.1 Crear una carpeta de trabajo
+  4.1 Crear una carpeta de trabajo
 
 ```
 Comandos útiles:
@@ -42,20 +42,20 @@ c:>MD 00-EOI (creamos la carpeta 00-EOI)
 C:>CD 00-EOI (nos movemos a dicha carpeta)
 ```
 
-​      2.2 Comprobamos que GIT esta instalado 
+​   4.2 Comprobamos que GIT esta instalado 
 
 ```
 c:>git
 ```
 
-​     2.3 Creamos un repositorio local
+​   4.3 Creamos un repositorio local
 
 ```
 c:> git init 
 Initialized empty Git repository in C:/00-EOI/.git/
 ```
 
-​    2.4 Revisamos la configuración global al ordenador de GIT (La respuesta es
+​    4.4 Revisamos la configuración global al ordenador de GIT (La respuesta es
 que no tiene configuración global) NO HACER CASO AL ERROR FATAL XD
 
 ```
@@ -63,7 +63,7 @@ c:>git config --global -l
 fatal: unable to read config file 'C:/Users/WDAGUtilityAccount/.gitconfig': No such file or directory
 ```
 
-​    2.5 Establecemos el usuario y el correo electrónico
+​    4.5 Establecemos el usuario y el correo electrónico
 
 ```
 c:>git config --global user.name "dugalatortuga"
@@ -151,7 +151,7 @@ Enlazamos el repositorio local con el remoto
 IR AL GITHUB -> COPIAR la ruta del repositorio de git
 ```
 
-![](img/01.png)
+![IMAGEN1](img/01.png)
 
 Establecemos la conexion
 
@@ -177,11 +177,11 @@ git remote -v
 
 ### CONFIRMACION DEL USUARIO DE GITHUB
 
-![](img/02.png)
+![IMAGEN2](img/02.png)
 
 Finalización de la autorización
 
-![](img/03.png)
+![IMAGEN3](img/03.png)
 
 
 
@@ -241,6 +241,7 @@ git commit -m "<confirmamos la subida de imagenes>"
 
 ### PRUEBA DE INSERCIÓN git add .
 
+___
 
 __ACTUAZAMOS LOS ARCHIVOS DEL REPOSITORIO__
 
@@ -267,9 +268,9 @@ git status
 
 VOLVEMOS A INICIAR LOS 5 PUNTOS TANTAS VECES COMO LO NECESITEMOS.
 
+---
 
-
-### PARA CONECTAR EL REPOSITORIO LOCAL CON LA NUBE
+__PARA CONECTAR EL REPOSITORIO LOCAL CON LA NUBE__
 
 git remote add main (y el link del repositorio)
 
