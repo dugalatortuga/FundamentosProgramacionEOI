@@ -53,13 +53,18 @@ c:>git
 ```
 c:> git init 
 Initialized empty Git repository in C:/00-EOI/.git/
+
+Con este comando se crea una carpeta e incluye en el nuevo 
+repositorio todos los archivos que se encuentren en su interior.
 ```
 
-​    4.4 Revisamos la configuración global al ordenador de GIT (La respuesta es
-que no tiene configuración global) NO HACER CASO AL ERROR FATAL XD
+​    4.4 Revisamos la configuración global al ordenador de GIT 
+(La respuesta es que no tiene configuración global)
+NO HACER CASO AL ERROR FATAL XD
 
 ```
 c:>git config --global -l
+
 fatal: unable to read config file 'C:/Users/WDAGUtilityAccount/.gitconfig': No such file or directory
 ```
 
@@ -285,4 +290,3 @@ git push main para conectar
 (comprobación de actualización)
 
 **ERROR EN LA SUBIDA DE IMAGENES. PENDIENTE DE REVISIÓN.
-

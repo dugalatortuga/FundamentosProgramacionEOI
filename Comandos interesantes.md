@@ -118,8 +118,3 @@ git remote add main (y el link del repositorio)
 git remote -v para comprobar que la conexión es buena
 
 git push main para conectar
-
-
-
-
-
