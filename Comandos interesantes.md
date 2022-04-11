@@ -111,7 +111,13 @@ Por lo tanto, generaremos el __bucle__ siempre que queramos subir la informació
     - git push main
 
 
+__PARA CONECTAR EL REPOSITORIO LOCAL CON LA NUBE__
 
+git remote add main (y el link del repositorio)
+
+git remote -v para comprobar que la conexión es buena
+
+git push main para conectar
 
 
 

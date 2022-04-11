@@ -280,7 +280,8 @@ git push main para conectar
 
 
 
-           ## FIN
+## FIN
+
 (comprobación de actualización)
 
 **ERROR EN LA SUBIDA DE IMAGENES. PENDIENTE DE REVISIÓN.
