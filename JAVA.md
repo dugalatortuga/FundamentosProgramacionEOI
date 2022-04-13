@@ -56,69 +56,40 @@ Lista de palabras clave (keywords) del lenguaje Java
 
 Palabra     Descripción de su funcionalidad
 
-abstract:	Se utiliza para definir clases y métodos abstractos.
-
-extends:	Cláusula que permite indicar la clase padre de una clase.
-
-class:	Sirve para definir una clase.
-
-this:	Se utiliza para referenciar al objeto actual, así como para invocar a un constructor de la clase a la que pertenece dicho objeto.
-
-new:	Operador que se utiliza para crear un objeto nuevo de una clase.
-
-static: 	Permite especificar que un elemento es único en una clase, no pudiendo existir instancias de esa clase que contengan a dicho elemento.
-
-void:	Tipo de dato vacío (sin valor).
-
-import:	Permite importar un paquete (package).
-
-public:	Modificador de acceso para indicar que un elemento es accesible desde cualquier clase.
-
-package: Agrupa a un conjunto de clases.
-
-protected: Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package).
-
-assert: Sirve para afirmar que una condición es cierta.
-
-boolean: Tipo de dato primitivo booleano (lógico), que puede ser true o false.
-
-break:	    Instrucción de salto que interrumpe (rompe) la ejecución de un bucle o de una instrucción de control alternativa múltiple (switch).
-
-switch: Instrucción de control alternativa múltiple.
-
-case: Caso de una instrucción de control alternativa múltiple (switch).
-
-default:	Caso por defecto de una instrucción de control alternativa múltiple (switch).
-
-enum:	Sirve para definir tipos de datos enumerados.
-
-byte:	Tipo de dato primitivo número entero (integer) de 8 bits.
-
-double:	Tipo de dato primitivo número real en coma flotante con precisión doble (double-precision floating-point) de 64 bits.
-
-float:	Tipo de dato primitivo número real en coma flotante con precisión simple (single-precision floating-point) de 32 bits.
-
-long:	Tipo de dato primitivo número entero (integer) de 64 bits.
-
-char:	Tipo de dato primitivo carácter (valor Unicode) de 16 bits.
-
-continue:	Instrucción de salto que interrumpe (rompe) la ejecución de la iteración de un bucle. Pero, permitiendo continuar al bucle seguir realizando otras iteraciones.
-
-do:	Se usa en la sintaxis de un bucle hacer mientras (do while).
-
-for:	Instrucción de control repetitiva "para".
-
-while:	Se usa para escribir bucles mientras (while) y bucles hacer mientras (do while).
-
-try:	Permite especificar un bloque de código donde se quieren atrapar excepciones.
-
-throws:	Sirve para indicar las excepciones que un método puede lanzar.
-
-if:	Se emplea para escribir instrucciones de control alternativas simples (if) o dobles (if else).
-
-else:	Si no, en una instrucción de control alternativa doble (if else).
-
-throw:	Permite lanzar una excepción
+| Comando | Descripción |
+| ------- | ----------- |
+|__abstract__|_Se utiliza para definir clases y métodos abstractos._|
+|extends |	Cláusula que permite indicar la clase padre de una clase.|
+|class| Sirve para definir una clase.|
+|this|	Se utiliza para referenciar al objeto actual, así como para invocar a un constructor de la clase a la que pertenece dicho objeto.|
+|new| Operador que se utiliza para crear un objeto nuevo de una clase.|
+|static:| Permite especificar que un elemento es único en una clase, no pudiendo existir.|instancias de esa clase que contengan a dicho elemento.
+|void:| Tipo de dato vacío (sin valor).|
+|import:| Permite importar un paquete (package).|
+|public:| Modificador de acceso para indicar que un elemento es accesible desde cualquier clase.|
+|package:| Agrupa a un conjunto de clases.|
+|protected:| Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package).|
+|assert:|Sirve para afirmar que una condición es cierta.|
+|boolean:| Tipo de dato primitivo booleano (lógico), que puede ser true o false.|
+|break:|Instrucción de salto que interrumpe (rompe) la ejecución de un bucle o de una instrucción de control alternativa múltiple (switch).|
+|switch:|Instrucción de control alternativa múltiple.|
+|case:|Caso de una instrucción de control alternativa múltiple (switch).|
+|default:|Caso por defecto de una instrucción de control alternativa múltiple (switch).|
+|enum:|Sirve para definir tipos de datos enumerados.|
+1byte:|Tipo de dato primitivo número entero (integer) de 8 bits.|
+|double:|Tipo de dato primitivo número real en coma flotante con precisión doble (double-precision floating-point) de 64 bits.|
+|float:|Tipo de dato primitivo número real en coma flotante con precisión simple (single-precision floating-point) de 32 bits.|
+|long:|Tipo de dato primitivo número entero (integer) de 64 bits.|
+|char:|Tipo de dato primitivo carácter (valor Unicode) de 16 bits.|
+|continue:|Instrucción de salto que interrumpe (rompe) la ejecución de la iteración de un bucle. Pero, permitiendo continuar al bucle seguir realizando otras iteraciones.|
+|do:|Se usa en la sintaxis de un bucle hacer mientras (do while).|
+|for:|Instrucción de control repetitiva "para".|
+|while:|Se usa para escribir bucles mientras (while) y bucles hacer mientras (do while).|
+|try:|Permite especificar un bloque de código donde se quieren atrapar excepciones.|
+|throws:|Sirve para indicar las excepciones que un método puede lanzar.|
+|if:|Se emplea para escribir instrucciones de control alternativas simples (if) o dobles (if else).|
+|else:|Si no, en una instrucción de control alternativa doble (if else).
+|throw:|Permite lanzar una excepción|
 
 __Sensible a mayuscula y minuscula__
 
