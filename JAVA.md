@@ -74,19 +74,19 @@ import:	Permite importar un paquete (package).
 
 public:	Modificador de acceso para indicar que un elemento es accesible desde cualquier clase.
 
-package:	Agrupa a un conjunto de clases.
+package: Agrupa a un conjunto de clases.
 
-protected:	Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package).
+protected: Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package).
 
-assert:	    Sirve para afirmar que una condición es cierta.
+assert: Sirve para afirmar que una condición es cierta.
 
-boolean:    Tipo de dato primitivo booleano (lógico), que puede ser true o false.
+boolean: Tipo de dato primitivo booleano (lógico), que puede ser true o false.
 
 break:	    Instrucción de salto que interrumpe (rompe) la ejecución de un bucle o de una instrucción de control alternativa múltiple (switch).
 
-switch:    Instrucción de control alternativa múltiple.
+switch: Instrucción de control alternativa múltiple.
 
-case:	Caso de una instrucción de control alternativa múltiple (switch).
+case: Caso de una instrucción de control alternativa múltiple (switch).
 
 default:	Caso por defecto de una instrucción de control alternativa múltiple (switch).
 
@@ -128,9 +128,13 @@ __Remuneración__
 
 El salario desarrollador Java promedio en España es de € 31.500 al año o € 16,15 por hora. Los cargos de nivel inicial comienzan con un ingreso de € 25.125 al año, mientras que profesionales más experimentados perciben hasta € 40.500 al año.
 
+![](img/salario.png)
+
 __Tamaño de la comunidad__
 
 Sobre el uso de Java: a principios de siglo se contabilizó su presencia en unos 2.500 millones de dispositivos tecnológicos y su dominio por parte de unos 4,5 millones de profesionales. Con el crecimiento de Android, Java se convirtió en uno de los lenguajes más extendidos.
+
+![](img/comunidad.png)
 
 __Influencia de otros lenguajes__
 
@@ -140,3 +144,4 @@ __Multiplataforma__
 
 El lenguaje de JAVA es multiplataforma y funciona en todas las plataformas que tengan JVM (Java Virtual Machine). Todos los Sistemas Operativos actuales Windows, Mac OS y Linux lo soportan.
 
+![](img/SO.jpg)
