@@ -59,37 +59,37 @@ Palabra     Descripción de su funcionalidad
 | Comando | Descripción |
 | ------- | ----------- |
 |__abstract__|_Se utiliza para definir clases y métodos abstractos._|
-|extends |	Cláusula que permite indicar la clase padre de una clase.|
-|class| Sirve para definir una clase.|
-|this|	Se utiliza para referenciar al objeto actual, así como para invocar a un constructor de la clase a la que pertenece dicho objeto.|
-|new| Operador que se utiliza para crear un objeto nuevo de una clase.|
-|static:| Permite especificar que un elemento es único en una clase, no pudiendo existir.|instancias de esa clase que contengan a dicho elemento.
-|void:| Tipo de dato vacío (sin valor).|
-|import:| Permite importar un paquete (package).|
-|public:| Modificador de acceso para indicar que un elemento es accesible desde cualquier clase.|
-|package:| Agrupa a un conjunto de clases.|
-|protected:| Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package).|
-|assert:|Sirve para afirmar que una condición es cierta.|
-|boolean:| Tipo de dato primitivo booleano (lógico), que puede ser true o false.|
-|break:|Instrucción de salto que interrumpe (rompe) la ejecución de un bucle o de una instrucción de control alternativa múltiple (switch).|
-|switch:|Instrucción de control alternativa múltiple.|
-|case:|Caso de una instrucción de control alternativa múltiple (switch).|
-|default:|Caso por defecto de una instrucción de control alternativa múltiple (switch).|
-|enum:|Sirve para definir tipos de datos enumerados.|
-1byte:|Tipo de dato primitivo número entero (integer) de 8 bits.|
-|double:|Tipo de dato primitivo número real en coma flotante con precisión doble (double-precision floating-point) de 64 bits.|
-|float:|Tipo de dato primitivo número real en coma flotante con precisión simple (single-precision floating-point) de 32 bits.|
-|long:|Tipo de dato primitivo número entero (integer) de 64 bits.|
-|char:|Tipo de dato primitivo carácter (valor Unicode) de 16 bits.|
-|continue:|Instrucción de salto que interrumpe (rompe) la ejecución de la iteración de un bucle. Pero, permitiendo continuar al bucle seguir realizando otras iteraciones.|
-|do:|Se usa en la sintaxis de un bucle hacer mientras (do while).|
-|for:|Instrucción de control repetitiva "para".|
-|while:|Se usa para escribir bucles mientras (while) y bucles hacer mientras (do while).|
-|try:|Permite especificar un bloque de código donde se quieren atrapar excepciones.|
-|throws:|Sirve para indicar las excepciones que un método puede lanzar.|
-|if:|Se emplea para escribir instrucciones de control alternativas simples (if) o dobles (if else).|
-|else:|Si no, en una instrucción de control alternativa doble (if else).
-|throw:|Permite lanzar una excepción|
+|__extends__ |_Cláusula que permite indicar la clase padre de una clase._|
+|__class__| _Sirve para definir una clase._|
+|__this__|	_Se utiliza para referenciar al objeto actual, así como para invocar a un constructor de la clase a la que pertenece dicho objeto._|
+|__new__| _Operador que se utiliza para crear un objeto nuevo de una clase._|
+|__static__| _Permite especificar que un elemento es único en una clase, no pudiendo existir.instancias de esa clase que contengan a dicho elemento._|
+|__void__| _Tipo de dato vacío (sin valor)._|
+|__import__| _Permite importar un paquete (package)._|
+|__public__| _Modificador de acceso para indicar que un elemento es accesible desde cualquier clase._|
+|__package__| _Agrupa a un conjunto de clases._|
+|__protected__| _Modificador de acceso para indicar que un elemento es accesible desde la clase donde se ha definido, subclases de ella y otras clases del mismo paquete (package)._|
+|__assert__|_Sirve para afirmar que una condición es cierta._|
+|__boolean__| _Tipo de dato primitivo booleano (lógico), que puede ser true o false._|
+|__break__|_Instrucción de salto que interrumpe (rompe) la ejecución de un bucle o de una instrucción de control alternativa múltiple (switch)._|
+|__switch__|_Instrucción de control alternativa múltiple._|
+|__case__|_Caso de una instrucción de control alternativa múltiple (switch)._|
+|__default__|_Caso por defecto de una instrucción de control alternativa múltiple (switch)._|
+|__enum__|_Sirve para definir tipos de datos enumerados._|
+|__byte__|_Tipo de dato primitivo número entero (integer) de 8 bits._|
+|__double__|_Tipo de dato primitivo número real en coma flotante con precisión doble (double-precision floating-point) de 64 bits._|
+|__float__|_Tipo de dato primitivo número real en coma flotante con precisión simple (single-precision floating-point) de 32 bits._|
+|__long__|_Tipo de dato primitivo número entero (integer) de 64 bits._|
+|__char__|_Tipo de dato primitivo carácter (valor Unicode) de 16 bits._|
+|__continue__|_Instrucción de salto que interrumpe (rompe) la ejecución de la iteración de un bucle. Pero, permitiendo continuar al bucle seguir realizando otras iteraciones._|
+|__do__|_Se usa en la sintaxis de un bucle hacer mientras (do while)._|
+|__for__|_Instrucción de control repetitiva "para"._|
+|__while__|_Se usa para escribir bucles mientras (while) y bucles hacer mientras (do while)._|
+|__try__|_Permite especificar un bloque de código donde se quieren atrapar excepciones._|
+|__throws__|Sirve para indicar las excepciones que un método puede lanzar._|
+|__if__|_Se emplea para escribir instrucciones de control alternativas simples (if) o dobles (if else)._|
+|__else__|_Si no, en una instrucción de control alternativa doble (if else)_.|
+|__throw__|_Permite lanzar una excepción_|
 
 __Sensible a mayuscula y minuscula__
 
