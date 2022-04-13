@@ -3,7 +3,7 @@
 ![](img/07.jpg)
 
 __Historia__
-```
+
 Para hablar de la historia de java, primero debemos remontarnos a los años 80, donde C podía considerarse el lenguaje por antonomasia. Era un lenguaje versátil, que podía actuar a bajo nivel y resolvían problemas muy complejos. Era la cima de la programación estructurada, para resolver estos complejos algoritmos, se generaban grandes procedimientos con un código muy complicado de mantener a largo plazo. Por ello empezó a surgir como alternativa la programación orientada a objetos, y con ella nació C++.
 Java nace en 1991 con el nombre "OAK", posteriormente cambiado por Green por problemas legales, y finalmente con la denominación actual JAVA. Hay varias teorías que hablan de cómo eligieron el nombre del lenguaje, y es que, según cuentan, los desarrolladores tomaban café habitualmente en una cafetería del mismo nombre, por eso utilizaron como logo una taza de café humeante. Otra teoría dice que viene del acrónimo "Just Another Vague Acronym" (otro acrónimo ambiguo más).
 
@@ -19,13 +19,13 @@ Desde entonces hasta la actualidad, Java ha pasado desde su versión inicial JDK
 
 Los programas largos son difíciles de organizar y de leer. Un programa completo tiene muchas líneas de código y tratar de encontrar una parte específica puede llegar a ser complicado. En este sentido, se puede trabajar de forma modular. En Java se pueden crear módulos que simplifican la tarea que estamos programando.
 
-
 Características:
-    - Multiplataforma.
 
-    - Lenguaje orientado a objetos: El enfoque orientado a objetos es uno de los estilos de programación más popular. En la programación orientada a objetos, un problema complejo se divide en conjuntos más pequeños mediante la creación de objetos. Esto hace que el código sea reutilizable, tenga beneficios de diseño y haga que el código sea más fácil de mantener.
+Multiplataforma.
 
-    - Rapidez: las versiones anteriores de Java fueron criticadas por ser lentas. Sin embargo, las cosas son completamente diferentes ahora. Las nuevas JVM son significativamente más rápidas. Y, la CPU que ejecuta JVM también se vuelve cada vez más poderosa. Ahora, Java es uno de los lenguajes de programación más rápidos. El código Java bien optimizado es casi tan rápido como los lenguajes de nivel inferior como C/C ++, y mucho más rápido que Python, PHP, etc.
+- Lenguaje orientado a objetos: El enfoque orientado a objetos es uno de los estilos de programación más popular. En la programación orientada a objetos, un problema complejo se divide en conjuntos más pequeños mediante la creación de objetos. Esto hace que el código sea reutilizable, tenga beneficios de diseño y haga que el código sea más fácil de mantener.
+
+- Rapidez: las versiones anteriores de Java fueron criticadas por ser lentas. Sin embargo, las cosas son completamente diferentes ahora. Las nuevas JVM son significativamente más rápidas. Y, la CPU que ejecuta JVM también se vuelve cada vez más poderosa. Ahora, Java es uno de los lenguajes de programación más rápidos. El código Java bien optimizado es casi tan rápido como los lenguajes de nivel inferior como C/C ++, y mucho más rápido que Python, PHP, etc.
 
     - Seguridad: la plataforma Java proporciona varias características para la seguridad de las aplicaciones Java. Algunas de las características de alto nivel que maneja Java son:
         1. Proporciona una plataforma segura para desarrollar y ejecutar aplicaciones
@@ -42,16 +42,16 @@ Características:
         - Sistema de negociación: puede crear aplicaciones de negociación que tengan baja latencia utilizando Oracle Extreme Java Trading Platform.
         - Dispositivos incorporados: si bien los lenguajes de programación C/C ++ siguen siendo opciones populares para trabajar con sistemas integrados, las tecnologías Java Embedded de Oracle proporcionan plataforma y tiempo de ejecución para miles de millones de dispositivos integrados como: televisores, tarjetas SIM, reproductores de discos Blu-ray, etc.
         - Además de estas aplicaciones, Java también se utiliza para el desarrollo de juegos, aplicaciones científicas (como el procesamiento del lenguaje natural) y muchas otras.
-```
+
 ![](img/06.png)
 
 
 __Compilado/Interpretado/Híbrido__
-```
+
 Híbrido: Java es un lenguaje particular porque es compilado, pero es compilado a un lenguaje intermedio llamado bytecode, que después es interpretado, por tanto es híbrido.
-```
+
 __Plabras clave__
-```
+
 Lista de palabras clave (keywords) del lenguaje Java
 
 Palabra     Descripción de su funcionalidad
@@ -119,24 +119,24 @@ if:	Se emplea para escribir instrucciones de control alternativas simples (if) o
 else:	Si no, en una instrucción de control alternativa doble (if else).
 
 throw:	Permite lanzar una excepción
-```
+
 __Sensible a mayuscula y minuscula__
-```
+
 Sí es sensible: por ejemplo en lenguajes C, C++ y JAVA no es lo mismo escribir un nombre de una variable en mayúsculas que en minúsculas.
-```
+
 __Remuneración__
-```
+
 El salario desarrollador Java promedio en España es de € 31.500 al año o € 16,15 por hora. Los cargos de nivel inicial comienzan con un ingreso de € 25.125 al año, mientras que profesionales más experimentados perciben hasta € 40.500 al año.
-```
+
 __Tamaño de la comunidad__
-```
+
 Sobre el uso de Java: a principios de siglo se contabilizó su presencia en unos 2.500 millones de dispositivos tecnológicos y su dominio por parte de unos 4,5 millones de profesionales. Con el crecimiento de Android, Java se convirtió en uno de los lenguajes más extendidos.
-```
+
 __Influencia de otros lenguajes__
-```
+
 La sintaxis de JAVA esta muy influenciada por los lenguajes C y C++ pero a diferencia de C++ el cual combina una sintaxis para programación estructural, genérica y orientado a objetos, JAVA esta construido casi exclusivamente hacia la programación orientada a objetos.
-```
+
 __Multiplataforma__
-```
-Java siempre ha tenido como uno de sus principales estandartes el hecho de ser multiplataforma. Esto quiere decir que si escribimos nuestro código en linux y luego lo compilamos, éste puede ser ejecutado en un entorno windows.
-```
+
+El lenguaje de JAVA es multiplataforma y funciona en todas las plataformas que tengan JVM (Java Virtual Machine). Todos los Sistemas Operativos actuales Windows, Mac OS y Linux lo soportan.
+
