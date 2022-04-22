@@ -2,9 +2,9 @@
 
 El presente programa nos dejará acceder a una habitación cuando la puerta esté abierta. Si la puerta está cerrada no podremos pasar.
 ```
-AAlgoritmo PuertaAbiertaPuertaCerrada
-	Escribir "¿Cómo está la puerta?"
+Algoritmo PuertaAbiertaPuertaCerrada
 	Repetir
+		Escribir "¿Cómo está la puerta?"
 		estadodelapuerta<-" "
 		Leer estadodelapuerta
 		Si estadodelapuerta = "abierta"
