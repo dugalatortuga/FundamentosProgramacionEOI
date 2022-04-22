@@ -21,7 +21,7 @@ Los programas largos son difíciles de organizar y de leer. Un programa completo
 
 Características:
 
-Multiplataforma.
+- Multiplataforma.
 
 - Lenguaje orientado a objetos: El enfoque orientado a objetos es uno de los estilos de programación más popular. En la programación orientada a objetos, un problema complejo se divide en conjuntos más pequeños mediante la creación de objetos. Esto hace que el código sea reutilizable, tenga beneficios de diseño y haga que el código sea más fácil de mantener.
 
